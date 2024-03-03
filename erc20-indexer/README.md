@@ -1,26 +1,37 @@
-# Simple ERC-20 Indexer
+# ERC-20 Token Indexer
 
-This is an skeleton app that uses the Alchemy SDK rigged to Alchemy's Enhanced APIs in order to display all of an address's ERC-20 token balances.
+This web app fetches ERC-20 token balances for Ethereum addresses. Users can connect their MetaMask wallet or input an address manually to view balances.
 
-## Set Up
+## Features
 
-1. Install dependencies by running `npm install`
-2. Start application by running `npm run dev`
+- Connect MetaMask or input Ethereum address
+- Display token balances with symbols, amounts, and logos
+- Error handling for invalid addresses or failed requests
 
-## Challenge
+## Technologies
 
-Fork this repo and build out more features! This is minimalistic on purpose.
+- Chakra UI for UI components
+- Alchemy SDK for Ethereum interaction
+- React for frontend development
+- MetaMask for wallet connectivity
 
-We purposefully built this app to be minimalistic so that you can get some software development practice in fixing our bugs! 🪲
+## Setup
 
-Here are a few challenge suggestions:
+1. Clone the repo
+2. Install dependencies: `npm install`
+3. Run the dev server: `npm run dev`
 
-1. Add Wallet integration so that any user that connects their wallet can check their ERC-20 token balance
-2. There is no indication of a request in progress... that's bad UX! Do you think you can add some sort of indication of loading?
-3. Add some styling! 🎨
-4. The token balances can sometimes be a little long and break the outline of the page... can you fix that? 🔧
-5. There is no error-checking for wrongly formed requests, or really any error checking of any kind... can you add some in?
-6. The images and grid display could look better... anything you can do about that?
-7. There are ways to make this app faster... can you implement some of them? How can the query be made _even_ quicker?
-8. Can you add ENS support for inputs?
-9. Completely open-ended!! Use this as the base for your next hackathon project, dream company or personal expedition :)
+## Usage
+
+1. Connect MetaMask or input an address
+2. Fetch token balances
+3. View balances in the table
+
+## features added
+1. Wallet integration
+2. ENS support
+3. Adrdress Inputs
+4. UX improvements - loading icon
+5. Result formatting
+6. Error checking/handling
+
